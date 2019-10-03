@@ -1,0 +1,8 @@
+@mixin set-bg($color) {
+    @if lightness($color) > 60 {
+        color: $secondary-color;
+    } @else {
+        color: $primary-color;
+    }
+}
+
